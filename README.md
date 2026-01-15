@@ -1,21 +1,60 @@
-<<<<<<< HEAD
 # hedefdersproje
+Bu flutter projesi Erdal Özdoğan'ın Mobil Programlama dersi bünyesinde geliştirilmiş olup öğrencilerin akademik takiplerini tek bir uygulama üzerinde yürütebilmelerini sağlamaktır. 
+##Kullanılan Teknolojier;
 
-A new Flutter project.
+📱 Uygulama & Platform
+Flutter
+Tek kod tabanı ile Android / iOS / Tablet / Desktop
+Material Design tabanlı modern UI
+Dart
+Asenkron programlama (async / await)
+Timer ve lifecycle yönetimi
 
-## Getting Started
+🧭 Navigation & UI
+Navigator (Navigator 1.0)
+Sayfalar arası geçiş (push / pop)
+MaterialApp & Scaffold
+AppBar, Buttons, Icons, Layout Widgets
+StatefulWidget
+Dinamik UI ve gerçek zamanlı sayaç
 
-This project is a starting point for a Flutter application.
+⏱️ Zaman & Lifecycle Yönetimi
+Timer (dart:async)
+Saniyelik kronometre
+WidgetsBindingObserver
+Uygulama arka plan / ön plan geçişlerini yakalama
+AppLifecycleState
+paused / detached durumlarında veri koruma
 
-A few resources to get you started if this is your first Flutter project:
+💾 Veri Saklama
+SQLite (sqflite)
+Kalıcı veri saklama
+Local Persistence
+Global süre bilgisinin tutulması
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🔄 State Yönetimi (Manual State)
+setState
+Anlık UI güncellemeleri
+Mounted kontrolü
+Widget yaşam döngüsü güvenliği
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# MOBILPROGRAMLAMAFINAL_HEDEFDERS
-Bu depoda almış olduğum Mobil Programlama dersinin bünyesinde geliştirmiş olduğum Hedef Ders uygulaması yer almaktadır.
->>>>>>> ddafec4fbad890dda79ec4a925e3209e26e89112
+🔐 Asenkron & Güvenlik
+async / await
+Future & Timer
+Race condition önleme
+Dispose & lifecycle güvenliği
+
+🧪 Platform Farkındalığı
+Flutter Web (Chrome)
+Test ortamı
+Platform limitlerini ayırt edebilme
+Mobile-first mimari
+Web yerine mobil hedefleme
+
+🧠 Yazılım Mimarisi
+Separation of Concerns
+UI ≠ Logic ≠ Storage
+Service Layer
+DatabaseHelper
+Resilient Architecture
+Kapanma / arka plan senaryolarına dayanıklı yapı
