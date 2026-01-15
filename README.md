@@ -1,6 +1,6 @@
 # hedefdersproje
 Bu flutter projesi Erdal Özdoğan'ın Mobil Programlama dersi bünyesinde geliştirilmiş olup öğrencilerin akademik takiplerini tek bir uygulama üzerinde yürütebilmelerini sağlamaktır. 
-##Kullanılan Teknolojier;
+## Kullanılan Teknolojier;
 
 📱 Uygulama & Platform
 Flutter
